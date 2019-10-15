@@ -15,7 +15,7 @@
  * import for `ngExpressEngine`.
  */
 
-import 'zone.js/dist/zone-node';
+// import 'zone.js/dist/zone-node';
 import { renderModuleFactory } from '@angular/platform-server';
 
 const {AppServerModuleNgFactory, LAZY_MODULE_MAP, ngExpressEngine, provideModuleMap} = require('./dist/server/main');
